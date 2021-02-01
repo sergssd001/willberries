@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Lato, sans-serif;
@@ -35,7 +39,8 @@ body {
 }
 
 .button-icon,
-.button-price {
+.button-price,
+.button-text {
   margin-right: 10px;
 }
 
@@ -98,4 +103,49 @@ body {
 
 .slide-button:hover {
   opacity: 1;
+}
+
+.card {
+  min-height: 370px;
+  border-radius: 10px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 46px;
+  padding-right: 46px;
+}
+
+.card-1 {
+  background: #e3e2e3 url("../img/card-1.jpg") no-repeat top right;
+  background-size: cover;
+}
+
+.card-2 {
+  background: #e3e2e3 url("../img/card-2.jpg") no-repeat top right;
+  background-size: cover;
+}
+
+.card-title {
+  font-family: "Roboto Slab", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262d33;
+  max-width: 222px;
+  margin: 0;
+}
+
+.card-text {
+  max-width: 176px;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b5157;
+  margin-bottom: 25px;
+}
+
+.text-light {
+  color: #ffffff;
 }
