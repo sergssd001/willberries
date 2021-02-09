@@ -252,3 +252,58 @@ body {
   line-height: 30px;
   font-weight: 900;
 }
+
+.footer {
+  background: #8f79d4;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.footer-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.footer-menu-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-link {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.footer-text {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e7d9ff;
+}
+
+.payment-logo {
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.footer-line {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.top-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.top-link-text {
+  margin-right: 15px;
+}
